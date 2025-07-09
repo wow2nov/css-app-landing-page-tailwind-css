@@ -9,7 +9,8 @@
 
 
 </head>
-  <body class="box-border m-0 p-0 font-['Inter',sans-serif] w-full min-h-screen bg-[#F6F6FB]">
+
+<body class="box-border m-0 p-0 font-['Inter',sans-serif] w-full min-h-screen bg-[#F6F6FB]">
     <!-- Navbar -->
     <nav class="w-full p-4 sm:p-6">
         <div class="bg-white flex flex-row justify-between items-center w-full py-3 sm:py-3 px-4 sm:px-8 md:px-20 rounded-[99px] shadow-[0px_4px_20px_0px_#9379CA0D]">    
@@ -60,48 +61,59 @@
           <button class="w-auto md:w-[187px] px-6 md:px-9 py-3 md:py-4 rounded-[16px] bg-[#1a1a2c] text-white text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] font-semibold text-center cursor-pointer">Start Free Trial</button>
         </div>
       </section>
-<div class="w-full flex justify-center py-20">
-      <div
-          class="flex flex-col md:flex-row gap-8 max-w-5xl w-full">
-          <!-- Card 1 -->
-          <div class="flex-1 bg-[#D7E5F6] w-[387px] h-[272px] p-6 rounded-2xl">
-              <div class="w-[60px] h-[60px] flex items-center justify-center bg-white rounded-xl mb-4">
-                  <span class="text-[#5b3df6] w-[60px] h-[60px] text-3xl flex items-center justify-center">
-                      <img src="./rocket.png" alt="" >
-                  </span>
-              </div>
-              <h3 class="font-semibold text-[24px] leading-8 text-[#18192f]" style="font-family: 'Inter', sans-serif;">Streamlined Workflows</h3>
-              <p class="font-medium text-[16px] leading-6 w-[331px] h-[116px]" style="font-family: 'Inter', sans-serif; color: #5F5F76;">
-                  Automate repetitive tasks and focus on high-impact work with our powerful productivity features.
-              </p>
-          </div>
-          <!-- Card 2 -->
-          <div class="flex-1 bg-[#D8E0FC] w-[387px] h-[272px] p-6 rounded-2xl">
-              <div class="w-[60px] h-[60px] flex items-center justify-center bg-white rounded-xl mb-4">
-                  <span class="text-[#5b3df6] w-[60px] h-[60px] text-3xl flex items-center justify-center">
-                      <img src="./blazing.png" alt="">
-                  </span>
-              </div>
-              <h3 class="font-semibold text-[24px] leading-8 text-[#18192f]" style="font-family: 'Inter', sans-serif;">Blazing Fast Performance</h3>
-              <p class="font-medium text-[16px] leading-6 w-[331px] h-[116px]" style="font-family: 'Inter', sans-serif; color: #5F5F76;">
-                  Experience lightning-fast performance and instant responsiveness with our cutting-edge technology.
-              </p>
-          </div>
-          <!-- Card 3 -->
-          <div class="flex-1 bg-[#E8DCF6] w-[387px] h-[272px] p-6 rounded-2xl">
-              <div class="w-[60px] h-[60px] flex items-center justify-center bg-white rounded-xl mb-4">
-                  <span class="text-[#5b3df6] w-[60px] h-[60px] text-3xl flex items-center justify-center">
-                      <img src="./smile.png" alt="">
-                  </span>
-              </div>
-              <h3 class="font-semibold text-[24px] leading-8 text-[#18192f]" style="font-family: 'Inter', sans-serif;">Intuitive Interface</h3>
-              <p class="font-medium text-[16px] leading-6 w-[331px] h-[116px]" style="font-family: 'Inter', sans-serif; color: #5F5F76;">
-                  Our user-friendly interface makes it easy for anyone to streamline their workflow.
-              </p>
-          </div>
-      </div>
-  </div>
 
+
+  <!-- Feature Cards Responsive Section -->
+  <div class="w-full max-w-[1440px] mx-auto flex justify-center items-center px-4 pt-10 pb-10 md:px-[120px] md:pt-[120px] md:pb-[140px]">
+    <div class="flex flex-col md:flex-row w-full gap-4 md:gap-[20px]">
+      <!-- Card 1 -->
+      <div class="flex-1 bg-[#D7E5F6] w-full lg:w-[387px] h-[272px] p-6 rounded-2xl mb-4 lg:mb-0">
+        <div class="w-[60px] h-[60px] flex items-center justify-center bg-white rounded-xl mb-4">
+          <span class="text-[#5b3df6] w-[60px] h-[60px] text-3xl flex items-center justify-center">
+            <img src="./rocket.png" alt="">
+          </span>
+        </div>
+        <h3 class="font-semibold text-[20px] lg:text-[24px] leading-7 lg:leading-8 text-[#18192f]" style="font-family: 'Inter', sans-serif;">
+          Streamlined Workflows
+        </h3>
+        <p class="font-medium text-[15px] lg:text-[16px] leading-6 w-full lg:w-[331px] h-auto lg:h-[116px]"
+          style="font-family: 'Inter', sans-serif; color: #5F5F76;">
+          Automate repetitive tasks and focus on high-impact work with our powerful productivity features.
+        </p>
+      </div>
+      <!-- Card 2 -->
+      <div class="flex-1 bg-[#D8E0FC] w-full lg:w-[387px] h-auto lg:h-[272px] p-6 rounded-2xl mb-4 lg:mb-0">
+        <div class="w-[60px] h-[60px] flex items-center justify-center bg-white rounded-xl mb-4">
+          <span class="text-[#5b3df6] w-[60px] h-[60px] text-3xl flex items-center justify-center">
+            <img src="./blazing.png" alt="">
+          </span>
+        </div>
+        <h3 class="font-semibold text-[20px] lg:text-[24px] leading-7 lg:leading-8 text-[#18192f]" style="font-family: 'Inter', sans-serif;">
+          Blazing Fast Performance
+        </h3>
+        <p class="font-medium text-[15px] lg:text-[16px] leading-6 w-full lg:w-[331px] h-auto lg:h-[116px]"
+          style="font-family: 'Inter', sans-serif; color: #5F5F76;">
+          Experience lightning-fast performance and instant responsiveness with our cutting-edge technology.
+        </p>
+      </div>
+      <!-- Card 3 -->
+      <div class="flex-1 bg-[#E8DCF6] w-full lg:w-[387px] h-auto lg:h-[272px] p-6 rounded-2xl">
+        <div class="w-[60px] h-[60px] flex items-center justify-center bg-white rounded-xl mb-4">
+          <span class="text-[#5b3df6] w-[60px] h-[60px] text-3xl flex items-center justify-center">
+            <img src="./smile.png" alt="">
+          </span>
+        </div>
+        <h3 class="font-semibold text-[20px] lg:text-[24px] leading-7 lg:leading-8 text-[#18192f]" style="font-family: 'Inter', sans-serif;">
+          Intuitive Interface
+        </h3>
+        <p class="font-medium text-[15px] lg:text-[16px] leading-6 w-full lg:w-[331px] h-auto lg:h-[116px]"
+          style="font-family: 'Inter', sans-serif; color: #5F5F76;">
+          Our user-friendly interface makes it easy for anyone to streamline their workflow.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- End Feature Cards Responsive Section -->
 
   <div class="min-h-screen flex flex-col justify-between">
     <main class="flex justify-center items-center py-20">
